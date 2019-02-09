@@ -86,6 +86,7 @@
 {% block javascript %}
 {{ block.super }}
 <script src="{% static "js/jquery.poshytip.js" %}"></script>
+<script src="{% static "js/iframeResizer.contentWindow-v3.6.5.js" %}"></script>
   {% if user.is_authenticated %}
     <script type="text/javascript" src="{% static "js/form_actions.js" %}"></script>
     <script type="text/javascript" src="{% static "js/jquery.cookie.js" %}"></script>
